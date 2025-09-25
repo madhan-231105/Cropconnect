@@ -1,0 +1,48 @@
+{
+  "name": "cropconnect-backend",
+  "version": "1.0.0",
+  "description": "Backend API for CropConnect - Digital marketplace for farmers and buyers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix"
+  },
+  "keywords": [
+    "agriculture",
+    "marketplace",
+    "farmers",
+    "crops",
+    "api"
+  ],
+  "author": "CropConnect Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.5.0",
+    "nodemailer": "^6.9.4",
+    "stripe": "^12.18.0",
+    "razorpay": "^2.8.6",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.10.0",
+    "express-validator": "^7.0.1",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.4",
+    "supertest": "^6.3.3",
+    "eslint": "^8.47.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
